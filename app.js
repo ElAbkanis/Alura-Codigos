@@ -1,9 +1,6 @@
-// array de almacenamiento
 let amigos = [];
-// agregar amigo
 function agregaramigo(){
     let nombreamigo = document.getElementById('Amigo').value.trim();
-
     if (nombreamigo !== ''){
         amigos.push(nombreamigo);
         limpiarCaja();
@@ -41,3 +38,4 @@ function limpiar() {
     document.getElementById("amigo").value = "";
 
 }
+
