@@ -12,7 +12,7 @@ function agregaramigo(){
     }
 } 
 function actualizarLista(){
-    let lista = document.getElementById("Lista");
+    let lista = document.getElementById("lista");
     lista.innerHTML = "";
     for ( let i=0; i < amigos.length; i++){
         let item = document.createElement("li");
@@ -33,6 +33,7 @@ function sortearAmigo(){
 function limpiar() {
     document.getElementById("amigo").value = "";
 }
+
 
 
 
