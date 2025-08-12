@@ -2,9 +2,9 @@
 let amigos = [];
 // agregar amigo
 function agregaramigo(){
-    let nombreamigo = document.getElementById('Amigo').ariaValueMax.trim();
+    let nombreamigo = document.getElementById('Amigo').value.trim();
 
-    if (nombreamigo === ''){
+    if (nombreamigo !== ''){
         amigos.push(nombreamigo);
         limpiarCaja();
         actualizarLista();
@@ -39,4 +39,5 @@ function sortearAmigo(){
 
 function limpiar() {
     document.getElementById("amigo").value = "";
+
 }
