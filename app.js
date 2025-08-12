@@ -1,6 +1,6 @@
 let amigos = [];
 function agregaramigo(){
-    let nombreamigo = document.getElementById('Amigo').value.trim();
+    let nombreamigo = document.getElementById('amigo').value.trim();
     if (nombreamigo !== ''){
         amigos.push(nombreamigo);
         limpiarCaja();
@@ -33,5 +33,6 @@ function sortearAmigo(){
 function limpiar() {
     document.getElementById("amigo").value = "";
 }
+
 
 
