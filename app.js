@@ -11,7 +11,6 @@ function agregaramigo(){
         return;
     }
 } 
-
 function actualizarLista(){
     let lista = document.getElementById("Lista");
     lista.innerHTML = "";
@@ -21,21 +20,18 @@ function actualizarLista(){
         lista.appendChild(item);
     }
 }
-
 function sortearAmigo(){
     if (amigos-length === 0) {
         alert("No hay datos, favor ingresar nombres");
         return;
     }
     const nombreAleatorio = Math.floor(Math.random() * amigos.legth);
-
     const sorteado = amigos[nombreAleatorio];
-    
-    resultado.innerHTML = <li> <strong> Amigo Sorteado </strong> ${sorteado} </li> ;
+        resultado.innerHTML = <li> <strong> Amigo Sorteado </strong> ${sorteado} </li> ;
 }
 
 function limpiar() {
     document.getElementById("amigo").value = "";
-
 }
+
 
