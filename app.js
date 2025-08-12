@@ -30,9 +30,10 @@ function sortearAmigo(){
         resultado.innerHTML = <li> <strong> Amigo Sorteado </strong> ${sorteado} </li> ;
 }
 
-function limpiar() {
+function limpiarCaja() {
     document.getElementById("amigo").value = "";
 }
+
 
 
 
